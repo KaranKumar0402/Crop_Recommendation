@@ -1,5 +1,7 @@
 import numpy as np
-import sklearn
+from sklearn.metrics import classification_report
+from sklearn import metrics
+from sklearn import tree
 import streamlit as st
 import pickle
 
