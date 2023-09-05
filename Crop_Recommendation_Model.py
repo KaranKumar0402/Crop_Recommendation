@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-pickle_in = open('../Trained Models/RandomForest.pkl','rb')
+pickle_in = open('RandomForest.pkl','rb')
 RF = pickle.load(pickle_in)
 
 st.title("CROP RECOMMEDATION WEB APP")
